@@ -1,0 +1,18 @@
+h1 {
+    font-family:'Courier New', Courier, monospace
+
+}
+
+#blue-cake {
+   width: 100vw;
+   margin: 0;
+}
+#cup-cakes {
+    width: 33%
+}
+#cake-on-rack {
+    width: 33%
+}
+#chocolate-cupcakes {
+    width: 33%
+}
