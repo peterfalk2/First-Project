@@ -3,36 +3,114 @@
     <head>
       <meta charset="UTF-8" />
       <link rel="stylesheet" href="styles.css">
-      <title>Cake!</title>
+      <link rel="stylesheet" href="responsive.css">
+      <title>House of Cake</title>
     </head>
-    <body>
-        <header>
-            <img src="../images/bakery.png" id="logo" alt="bakery logo">
-            <!-- logo attribute link: <a href="https://www.flaticon.com/free-logos/cake" title="cake undefined">Cake undefined Freepik - Flaticon</a> -->
-            <h1>The House of Cake</h1>
-            <h4>Makers of the finest cakes and sweet tarts</h4>
-        </header>
-    <main>
-        <div>
-            <h1>Cake!</h1>
-            <h3>What's not to like!</h3>
-            <img src="../images/ruth-georgiev-dvmiNXMh9d8-unsplash.jpg" id="blue-cake" alt="chocolate cake on blue background">
-            <p>
-                I like cake. I like cake so much that I didn't want to insert "lorem ipsum" here. Not that I have anything much to say about cake. Except that it's delicious. But you already knew that! So I could blather on about the virtues of flour, eggs, butter, spices, flavourings and sugar but what's the point? The point really is just to fill in some text space here. However, I seem to have run out of things to write about already. That's not surprising. I don't enjoy <em>writing</em> about cake. I enjoy <em>eating</em> cake!
-            </p>
-        </div>
-    
-        <div>
-            <img src="../images/happy-birthday-4944589.jpg" id="cup-cakes" alt="cup cakes on cake stand">
-            <img src="../images/deborah-rainford-lk63vqjc1nA-unsplash.jpg" id="cake-on-rack" alt="vanilla cake on cooling rack">
-            <img src="../images/kobby-mendez-w0_w3N_hG00-unsplash.jpg" id="chocolate-cupcakes" alt="cupcakes being dusted with cocoa">
-        </div>
-        <div>
-                <iframe src="https://player.vimeo.com/video/456193022?h=df6f8fc6e2&color=fdbfc8&title=0&byline=0&portrait=0" width="640" height="360" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                <p><a href="https://vimeo.com/456193022">Cake Bake</a> from <a href="https://vimeo.com/palomarin">Paloma Rinc&oacute;n</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-        </div>
-  
-  </main>
 
-</body>
+    <body >
+        <div class="grid-container">
+           
+             <div class="logo">
+                 <!-- Logo credit: <a href="https://www.flaticon.com/free-logos/cake" title="cake undefined">Cake undefined Freepik - Flaticon</a> -->
+                 <img src="../images/bakery.png" id="logo" alt="bakery logo">
+             </div>
+             <header class="header">
+                <h2>The House of Cake</h2>
+                <h5>Makers of the finest cakes and sweet tarts</h5>
+             </header>
+       
+        
+            <div class="cake">
+                <h1>Cake!</h1>
+                 <h4>What's not to like!</h4>
+            </div>
+            <div class="blue-cake">
+                 <!-- Photo credit: <a href="https://unsplash.com/@ruthgeorgiev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ruth Georgiev</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  -->
+                
+                <img src="../images/ruth-georgiev-dvmiNXMh9d8-unsplash.jpg" id="blue-cake" alt="chocolate cake on blue background">
+                    <div class="text-block">
+                    <h1>Cake! </h1>
+                    <h4>What's not to like!</h4>
+                    </div>
+            </div>
+            <div class="text">
+                <p>
+                I like cake. I like cake so much that I didn't want to insert "lorem ipsum" here. Not that I have anything much to say about cake. Except that it's delicious. But you already knew that! So I could blather on about the virtues of flour, eggs, butter, spices, flavourings and sugar but what's the point? The point really is just to fill in some text space here. However, I seem to have run out of things to write about already. That's not surprising. I don't enjoy <em>writing</em> about cake. I enjoy <em>eating</em> cake!
+                 </p>
+            </div>
+        
+    
+            <div class="cup-cakes">
+                 <!-- Photo credit: <a href="https://pixabay.com/users/robertasriabovas-15647360/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4944589">Robertas Riabovas</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4944589">Pixabay</a>-->
+                <img src="../images/happy-birthday-4944589.jpg" id="cup-cakes" alt="cup cakes on cake stand">
+            </div>  
+             <div class="cake-on-rack">
+                 <!-- Photo credit: <a href="https://unsplash.com/@debsrainford?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Deborah Rainford</a> on <a href="https://unsplash.com/s/photos/cake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                 -->
+                <img src="../images/deborah-rainford-lk63vqjc1nA-unsplash.jpg" id="cake-on-rack" alt="vanilla cake on cooling rack">
+             </div>
+             <div class="tarts">
+                 <!-- Photo credit: by <a href="https://unsplash.com/@slashiophotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Slashio Photography</a> on <a href="https://unsplash.com/s/photos/tarts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+                 -->
+                 <img src="../images/slashio-photography-XxWxPGXwDU0-unsplash.jpg" id="tarts" alt="falling fruit tarts">
+             </div>
+
+             <div class="video">
+                 <p>
+                Have a look at this fun cake video!
+                 </p>
+                <!-- Video credit: <a href="https://vimeo.com/456193022">Cake Bake</a> from <a href="https://vimeo.com/palomarin">Paloma Rinc&oacute;n</a> on <a href="https://vimeo.com">Vimeo</a> -->
+                <iframe src="https://player.vimeo.com/video/456193022?h=df6f8fc6e2&color=fdbfc8&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+               .</p>
+            </div>
+          
+            <div class="purchase">
+                <p>Purchase one of our cakes today!</p>
+                     <table>
+                         <tr>
+                            <th>size</th>
+                            <th>weight</th>
+                            <th>price</th>
+                        </tr>
+                        <tr>
+                            <td>small</td>
+                            <td>500g</td>
+                            <td>$8.00</td>
+                        </tr>
+                        <tr>
+                            <td>medium</td>
+                            <td>1kg</td>
+                            <td>$12.00</td>
+                        </tr>
+                         <tr>
+                             <td>large</td>
+                             <td>1.5kg</td>
+                             <td>$20.00</td>
+                         </tr>
+                     </table>
+            </div>
+
+            <div class="footer">
+                <p>
+                    The House of Cake
+                    <br>
+                    1001 Sturt Street
+                    <br>
+                    Melbourne, Vic, 3000
+                </p>
+                <p>
+                    <!-- <a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Freepik - Flaticon</a> -->
+                    <img src="../images/phone.png" id="phone" alt="phone icon">
+                    <a href="tel:6139000000">Ph: 6139000000</a>
+                 </p>
+                <address>
+                     <!-- <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">Mail icons created by Freepik - Flaticon</a>-->
+                    <img src="../images/mail.png" id="mail" alt="email icon">
+                    <a href="peterfalk@optusnet.com.au">email: HOC@optusnet.com.au</a>
+                </address>
+            </div>
+        </div>
+    </body>
 </html>

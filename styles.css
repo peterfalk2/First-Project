@@ -1,18 +1,83 @@
+body {
+    /*photo credit: <a href="https://unsplash.com/@kiwihug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kiwihug</a> on <a href="https://unsplash.com/s/photos/background-texture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+  
+    background-image: url("images/kiwihug-qv05FvdE26k-unsplash.jpg");
+}
+
+.logo > img {
+    object-fit: cover;
+    width: 100%;
+}
+
 h1 {
-    font-family:'Courier New', Courier, monospace
+    color:#fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 10vw;
+}
+h2 {  
+    color:#000;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 12vw;
+}
+h5 {
+    color:#000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 2.9vw;
+}
+h4 {
+    color:#fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 3vw;
 
 }
+.blue-cake > img {
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+}
+.blue-cake {
+    position: relative;
+}
+    .text-block {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        background-color: #00000080;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 500%;
 
-#blue-cake {
-   width: 100vw;
-   margin: 0;
 }
-#cup-cakes {
-    width: 33%
+.text {
+    color:#000;
+font-size: 150%;
+
 }
-#cake-on-rack {
-    width: 33%
+.cup-cakes > img {
+    object-fit: cover;
+    width: 100%;
 }
-#chocolate-cupcakes {
-    width: 33%
+.cake-on-rack > img {
+    object-fit: cover;
+    width: 100%;
+}
+.tarts > img {
+    object-fit: cover;
+    width: 100%;
+}
+.video {
+    color:#000;
+    object-fit: cover;
+    width: 100%;
+}
+.purchase {
+    color:#000;
+}
+.footer {
+    color:#000;
 }
