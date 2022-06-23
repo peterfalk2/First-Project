@@ -1,3 +1,4 @@
+
 body {
     /*photo credit: <a href="https://unsplash.com/@kiwihug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kiwihug</a> on <a href="https://unsplash.com/s/photos/background-texture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   */
@@ -7,29 +8,39 @@ body {
 
 .logo > img {
     object-fit: cover;
-    width: 100%;
+    width: 80%;
+    margin-left:20%;
 }
 
-h1 {
+h1 {  
+    color:#000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 700%;
+    text-align: left;
+    padding: 2%;
+    
+    margin-top: 10%;
+    margin-bottom: 1%
+    
+}
+h2 {
+    color:#000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right:8vw;
+    text-align: left;
+    font-size: 30px;
+    }
+h3 {
     color:#fff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 10vw;
-}
-h2 {  
-    color:#000;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 12vw;
-}
-h5 {
-    color:#000;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 2.9vw;
+    font-size: 10vw;
 }
 h4 {
     color:#fff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 3vw;
-
+    font-size: 3vw;
 }
 .blue-cake > img {
     object-fit: cover;
@@ -48,16 +59,25 @@ font-size: 3vw;
         padding-left: 5%;
         padding-right: 5%;
       }
-h3 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 500%;
-
-}
-.text {
-    color:#000;
-font-size: 150%;
-
-}
+      h3 {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 500%;
+    
+    }
+    .text {
+        color:#000;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 32px;
+        text-align: center;    
+    }
+    .cake-sorts {
+        color:#000;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 32px;
+        text-align: center;
+        list-style-position: inside;
+        margin-top: auto;
+    }
 .cup-cakes > img {
     object-fit: cover;
     width: 100%;
@@ -70,14 +90,49 @@ font-size: 150%;
     object-fit: cover;
     width: 100%;
 }
+
 .video {
     color:#000;
-    object-fit: cover;
-    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:32px;
+    text-align: center;
+    margin: auto;
+}
+.iframe {
+    border: 5px;
+  
 }
 .purchase {
     color:#000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.table {
+    color:#000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    width: 80%;
+    margin:auto;
 }
 .footer {
     color:#000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+
+}
+#phone {
+    vertical-align: middle;
+}
+#mail {
+    vertical-align: middle;
+}
+#email, #phone-number {
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(32, 74, 212);
+   
 }
