@@ -68,14 +68,13 @@ h4 {
 .text {
     color:#000;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 32px;
     text-align: center; 
     margin-top: 5%; 
  }
 #cake-sorts {
     color:#000;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 32px;
+
     text-align: center;
     list-style-position: inside;
     padding-right: 7%;
@@ -83,12 +82,11 @@ h4 {
 .cake-photos > img {
     object-fit: cover;
     width: 100%;
-    padding-top: 5vh;
+    padding-top: 2vh;
 }
 .video {
     color:#000;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:32px;
     text-align: center;
     padding-top: 10%; 
 }
@@ -100,7 +98,6 @@ h4 {
 #purchase {
     color:#000;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 32px;
     text-align: center;
     padding-top: 5vh;
 }
@@ -109,7 +106,7 @@ h4 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     width: 80%;
-    margin:auto;
+   margin-left:7vw;
 }
 
 .table td {
@@ -136,7 +133,9 @@ h4 {
 }
 #email, #phone-number {
     font-style: normal;
+    text-align: left;
     font-size: 40px;
     color: rgb(32, 74, 212);
-    padding: 2vh;
+    padding-left: 2vw;
+ 
 }

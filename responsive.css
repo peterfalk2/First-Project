@@ -2,7 +2,7 @@
 
 @media only screen and (min-width:300px)  {
     
-   .grid-container {
+ .grid-container {
         display:grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: auto;
@@ -25,6 +25,10 @@
     }
     .text > p {
         grid-column: 2 / 12;
+        font-size: 20px;
+    }
+    #cake-sorts {
+        font-size: 20px;
     }
     #cup-cakes {
         grid-row: 1;
@@ -39,6 +43,9 @@
         grid-row: 3;
         grid-column: 2 / 12;
     }
+    .video {
+        font-size: 20px;
+    }
     .video > figcaption {
         grid-row: 1;
         grid-column: 1/ 13;
@@ -47,25 +54,34 @@
         grid-row: 2;
         grid-column: 2 / 12;
     }
+    #purchase {
+        font-size: 20px;
+    }
     #address {
         grid-row: 1;
         grid-column: 2 / 12; 
     }
     #phone {
         grid-row: 2;
-        grid-column: 3;
+        grid-column: 4;
     }
     #phone-number {
         grid-row: 2;
-        grid-column: 4 / 12; 
+        grid-column: 5 / 11; 
+        padding-right: 1vw;
     }
     #mail {
         grid-row: 3;
         grid-column: 2;
-
     }
     #email {
         grid-row: 3;
         grid-column: 3 / 11; 
+        padding-right: 1vw;
     }
+}
+
+@media only screen and (min-width: 1020px){
+
+
 }
