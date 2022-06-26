@@ -1,5 +1,4 @@
-
- .grid-container {
+.grid-container {
     display:grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
@@ -106,24 +105,24 @@ td {
     color:#000;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1vw;
-    text-align: center;
+    text-align: center ;
     margin: auto;;
     padding-bottom: 20vh;
 }
 #phone {
     vertical-align: middle;
+
+    
 }
 #mail {
     vertical-align: middle;
 }
 #telephone {
     font-style: normal;
-    text-align: left;
     color: rgb(32, 74, 212);
 }
 #email {
     font-style: normal;
-    text-align: center;
     color: rgb(32, 74, 212);
 }
 
