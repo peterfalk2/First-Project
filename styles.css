@@ -32,14 +32,15 @@ h3 {
     color:#fff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 7vw;
-    padding-left: 3vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
 }
 h4 {
     color:#fff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3vw;
-    padding-bottom: 10vw;
-    padding-left: 3vw;
+    padding-left: 2vw;
+    padding-bottom: 2vw;
 }
 .blue-cake > img {
     object-fit: cover;
