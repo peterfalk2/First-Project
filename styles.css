@@ -119,10 +119,14 @@ td {
     vertical-align: middle;
 }
 #phonenumber {
+    grid-column-start: 8;
+    font-size: 1.5vw;
     font-style: normal;
     color: rgb(32, 74, 212);
 }
 #email {
+    grid-column-start: 8;
+    font-size: 1.5vw;
     font-style: normal;
     color: rgb(32, 74, 212);
 }
